@@ -1,0 +1,62 @@
+/**
+* Vertical Nav
+**/
+
+<style type="text/css">
+
+#sample {
+}
+
+/** --- TYPOGRAPHY --- **/
+
+h1 {
+	font-family: Helvetica;
+	font-size: 3em;
+}
+
+/** --- MENU STYLES --- **/
+
+.block  {
+	display: table;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+}
+
+.block h1 {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.home {
+	background: #d0e9fb;
+	color: #5694cd;
+	transition: all 0.6s ease;
+}
+
+.portfolio,
+.about,
+.contact {
+	background: #ebecee;
+	color: #abadb3;
+	transition: all 0.6s ease;
+}
+
+/** --- ANIMATIONS --- **/
+
+.home:hover {
+	background: #5694cd;
+	color: #d0e9fb;
+	border-left: solid 10px #d0e9fb;
+}
+
+.portfolio:hover,
+.about:hover,
+.contact:hover {
+	background: #abadb3;
+	color: #ebecee;
+	border-left: solid 10px #ebecee;
+}
+
+
+
